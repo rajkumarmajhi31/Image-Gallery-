@@ -5,6 +5,7 @@ import CreateEmployeePage from "./pages/CreateEmployeePage";
 function App() {
   return (
     <div>
+      <title>Employee Profile</title>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/addemployee" element={<CreateEmployeePage />} />
